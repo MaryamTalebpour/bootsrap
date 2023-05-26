@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-light"> 
         <div class="container">
-            <a href="#" class="navbar-brand">
+            <a type="button" class="navbar-brand" data-bs-toggle="modal" data-bs-target="#account">
                 <i class="bi bi-person"></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -97,6 +97,19 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" id="account">
+        <div class="modal-dialog">
+            <div class="modal-content text-end">
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal"> close</button>
+                    <button class="btn btn-dark">login</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
